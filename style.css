@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('bgimg.jpg');
+    background-size: cover;
+}
+.keys {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 60vh;
+   max-width: 85vw;
+   margin: auto;
+   flex: 1;
+  }
+.key {
+    border: 2px solid black;
+    border-radius: 15px;
+    background: rgba(218, 174, 55, 0.281);
+   margin: 10px; 
+   padding: 16px 8px;
+   width: 75vw;
+   font-size: 14px;
+   text-align: center;
+   color: rgba(8, 8, 8, 0.952);
+   /* text-shadow: 0 0 4px #000; */
+   transition: all .07s ease;
+   font-family: 'Handlee', cursive;
+   /* text-transform: uppercase; */
+}
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(207, 205, 203);
+    box-shadow: 0 0 1rem black;
+}
+kbd{
+    display: block;
+    color: rgb(109, 78, 39);
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Righteous', cursive;
+}
+.sound {
+    font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: rgba(8, 8, 8, 0.952);
+}
